@@ -45,25 +45,48 @@ Framer Motion – Library for animations and transitions.
 
 ## **📂 Project Structure**
 
-/app
-  /products
-    /[slug]
-      page.tsx
-  page.tsx
-/components
-  /submit-button.tsx
-/actions
-  sellYourItemAction.ts
-/utils
-  getCanonicalUrl.ts
-  getImageUrl.ts
-/styles
-  globals.css
-  tailwind.config.js
+```
+public/
+  chatter-dark.png
+  clyro.png
+  j.jpg
+  portfolio.png
+  quick-cart.png
+
+src/
+  app/
+    globals.css
+    layout.tsx
+    page.tsx
+  components/
+    header.tsx
+    theme-provider.tsx
+    ui/
+      button.tsx
+  sections/
+    about.tsx
+    contact.tsx
+    experience.tsx
+    hero.tsx
+    index.ts
+    projects.tsx
+    skills.tsx
+  lib/
+    utils.ts
+
+.gitignore
+README.md
+eslint.config.mjs
+next.config.ts
+package.json
+package-lock.json
+postcss.config.mjs
+tsconfig.json
+```
 
 ## **📸 Preview**
 
-![Portfolio Screenshot](portfolio.png)
+![Portfolio Screenshot](public/portfolio.png)
 
 ## **📄 License**
 
