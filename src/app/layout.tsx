@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },
   description:
     "Portfolio of Jatin Kumar, a web developer specializing in Next.js, MERN, and TypeScript.",
-  metadataBase: new URL("https://example.com"),
+  metadataBase: new URL("https://portfolio-phi-lake-xi9cvdnaw5.vercel.app/"),
 };
 
 export default function RootLayout({
