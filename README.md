@@ -1,6 +1,6 @@
 # Jatin Kumar's Portfolio
 
-Welcome to my personal portfolio built with **Next.js**, **TypeScript**, **Tailwind CSS**, and **Supabase**.  
+Welcome to my personal portfolio built with **Next.js**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**.  
 This project showcases my journey as a full-stack developer, highlighting my skills, projects, and experiences.
 
 ---
