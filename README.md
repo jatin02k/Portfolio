@@ -63,7 +63,7 @@ Framer Motion – Library for animations and transitions.
 
 ## **📸 Preview**
 
-![Portfolio Screenshot](/portfolio.png)
+![Portfolio Screenshot](portfolio.png)
 
 ## **📄 License**
 
