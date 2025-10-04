@@ -22,6 +22,33 @@ export const metadata: Metadata = {
   description:
     "Portfolio of Jatin Kumar, a web developer specializing in Next.js, MERN, and TypeScript.",
   metadataBase: new URL("https://portfolio-phi-lake-xi9cvdnaw5.vercel.app"),
+
+  openGraph: {
+    title: "Jatin Kumar — Web Developer",
+    description:
+      "Portfolio of Jatin Kumar, a web developer specializing in Next.js, MERN, and TypeScript.",
+    url: "https://portfolio-phi-lake-xi9cvdnaw5.vercel.app",
+    siteName: "Jatin Kumar Portfolio",
+    images: [
+      {
+        url: "https://portfolio-phi-lake-xi9cvdnaw5.vercel.app/portfolio.png", 
+        width: 1200,
+        height: 630,
+        alt: "Jatin Kumar Portfolio Preview",
+      },
+    ],
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Jatin Kumar — Web Developer",
+    description:
+      "Portfolio of Jatin Kumar, a web developer specializing in Next.js, MERN, and TypeScript.",
+    images: [
+      "https://portfolio-phi-lake-xi9cvdnaw5.vercel.app/portfolio.png",
+    ],
+  },
 };
 
 export default function RootLayout({
