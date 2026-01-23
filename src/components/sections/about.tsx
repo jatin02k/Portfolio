@@ -8,6 +8,7 @@ export function AboutSection() {
     <section id="about" className="py-20 bg-muted/20">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <motion.h2
+
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}

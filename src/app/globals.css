@@ -1,21 +1,39 @@
 @import "tailwindcss";
 
 :root {
+<<<<<<< HEAD
   --background: #050505;
   --foreground: #ffffff;
   --primary: #2563EB;
   --muted: #1c1c1c;
+=======
+  --background: #ffffff;
+  --foreground: #0b0b0b;
+>>>>>>> d1a7e1d3a4798862f394c96a630c6e32b448e67a
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+<<<<<<< HEAD
   --color-primary: var(--primary);
   --color-muted: var(--muted);
+=======
+>>>>>>> d1a7e1d3a4798862f394c96a630c6e32b448e67a
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
+<<<<<<< HEAD
+=======
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+>>>>>>> d1a7e1d3a4798862f394c96a630c6e32b448e67a
 body {
   background: var(--background);
   color: var(--foreground);
@@ -25,5 +43,9 @@ body {
 }
 
 html {
+<<<<<<< HEAD
   scroll-behavior: auto; /* Lenis handles smoothing */
+=======
+  scroll-behavior: smooth;
+>>>>>>> d1a7e1d3a4798862f394c96a630c6e32b448e67a
 }
