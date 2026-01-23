@@ -46,14 +46,14 @@ export function AboutSection() {
             className="text-lg text-foreground/80 leading-relaxed text-center md:text-left space-y-6"
           >
             <p>
-              Hey, I'm Jatin Kumar.
+              Hey, I&apos;m Jatin Kumar.
             </p>
             <p>
-              I'm a full-stack developer who builds web applications. I work with React, Node.js, and PostgreSQL.
+              I&apos;m a full-stack developer who builds web applications. I work with React, Node.js, and PostgreSQL.
             </p>
             <p>
-              Right now I'm building <span className="text-foreground font-medium">Appointor</span> - a booking system for freelancers and indie hackers. 
-              I'm also available for freelance work helping startups build their MVPs.
+              Right now I&apos;m building <span className="text-foreground font-medium">Appointor</span> - a booking system for freelancers and indie hackers. 
+              I&apos;m also available for freelance work helping startups build their MVPs.
             </p>
             <p className="font-medium text-foreground">
               If you need an MVP built or want to try Appointor, reach out.
