@@ -46,7 +46,7 @@ export function AboutSection() {
             className="text-lg text-foreground/80 leading-relaxed text-center md:text-left space-y-6"
           >
             <p>
-              Hey, I'm Jatin.
+              Hey, I'm Jatin Kumar.
             </p>
             <p>
               I'm a full-stack developer who builds web applications. I work with React, Node.js, and PostgreSQL.

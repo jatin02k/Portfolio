@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 
-<<<<<<< HEAD
 const items = [
   {
     title: "SaaS Architecture",
@@ -46,26 +45,10 @@ const items = [
     className: "md:col-span-3 bg-gradient-to-br from-pink-500/10 to-rose-500/10 border-pink-500/20",
     tags: ["System Design", "DSA", "Data Analysis", "Machine Learning (Learning)"]
   }
-=======
-const skills = [
-  "Next.js",
-  "React",
-  "Zustand",
-  "TypeScript",
-  "Node.js",
-  "PostgreSQL",
-  "Supabase",
-  "Tailwind CSS",
-  "Daisy UI",
-  "Framer Motion",
-  "Version Control",
-  "Vite",
->>>>>>> d1a7e1d3a4798862f394c96a630c6e32b448e67a
 ];
 
 export function SkillsSection() {
   return (
-<<<<<<< HEAD
     <section id="skills" className="py-24 px-4 sm:px-6">
       <div className="mx-auto max-w-6xl">
         <motion.div
@@ -107,33 +90,6 @@ export function SkillsSection() {
             </motion.div>
           ))}
         </div>
-=======
-    <section id="skills" className="py-20">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <motion.h2
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="text-2xl font-semibold"
-        >
-          Skills
-        </motion.h2>
-        <ul className="mt-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-          {skills.map((skill, idx) => (
-            <motion.li
-              key={skill}
-              initial={{ opacity: 0, y: 8 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.4, delay: idx * 0.03 }}
-              className="rounded-md border border-black/5 dark:border-white/10 bg-white/50 dark:bg-white/[0.03] px-3 py-2 text-sm"
-            >
-              {skill}
-            </motion.li>
-          ))}
-        </ul>
->>>>>>> d1a7e1d3a4798862f394c96a630c6e32b448e67a
       </div>
     </section>
   );

@@ -3,10 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Header } from "@/components/header";
-<<<<<<< HEAD
-import { SmoothScroll } from "@/components/smooth-scroll";
-=======
->>>>>>> d1a7e1d3a4798862f394c96a630c6e32b448e67a
+import { SmoothScroll } from "@/components/smooth-scroll";  
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -63,19 +60,12 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-<<<<<<< HEAD
         <SmoothScroll>
           <ThemeProvider>
             <Header />
             <main className="pt-16">{children}</main>
           </ThemeProvider>
         </SmoothScroll>
-=======
-        <ThemeProvider>
-          <Header />
-          <main className="pt-16">{children}</main>
-        </ThemeProvider>
->>>>>>> d1a7e1d3a4798862f394c96a630c6e32b448e67a
       </body>
     </html>
   );
