@@ -17,22 +17,25 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Jatin Kumar — Web Developer",
+    default: "Jatin Kumar — Full Stack Developer",
     template: "%s — Jatin Kumar",
   },
   description:
     "Portfolio of Jatin Kumar, a web developer specializing in Next.js, MERN, and TypeScript.",
-  metadataBase: new URL("https://portfolio-phi-lake-xi9cvdnaw5.vercel.app"),
+  icons: {
+    icon: "/j.jpg",
+  },
+  metadataBase: new URL("https://jatink-portfolio.vercel.app"),
 
   openGraph: {
-    title: "Jatin Kumar — Web Developer",
+    title: "Jatin Kumar — Full Stack Developer",
     description:
       "Portfolio of Jatin Kumar, a web developer specializing in Next.js, MERN, and TypeScript.",
-    url: "https://portfolio-phi-lake-xi9cvdnaw5.vercel.app",
+    url: "https://jatink-portfolio.vercel.app",
     siteName: "Jatin Kumar Portfolio",
     images: [
       {
-        url: "https://portfolio-phi-lake-xi9cvdnaw5.vercel.app/portfolio.png", 
+        url: "/portfolio.png",
         width: 1200,
         height: 630,
         alt: "Jatin Kumar Portfolio Preview",
@@ -43,11 +46,11 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Jatin Kumar — Web Developer",
+    title: "Jatin Kumar — Full Stack Developer",
     description:
       "Portfolio of Jatin Kumar, a web developer specializing in Next.js, MERN, and TypeScript.",
     images: [
-      "https://portfolio-phi-lake-xi9cvdnaw5.vercel.app/portfolio.png",
+      "/portfolio.png",
     ],
   },
 };
