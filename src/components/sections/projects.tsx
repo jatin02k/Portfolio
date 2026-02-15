@@ -8,13 +8,13 @@ import { Button } from "@/components/ui/button";
 
 const projects = [
   {
-    title: "Cofounder",
-    description: "A SaaS platform designed to help solo developers validate ideas, manage distribution, and handle marketing automation. Currently in development.",
-    tags: ["Future Project", "SaaS", "Marketing"],
-    links: { demo: "#", github: "#" },
-    isFuture: true,
-    metric: "Coming Soon",
-    image: "/cofounder.png"
+    title: "Enact AI",
+    description: "An AI-powered SaaS platform that transforms self-help book knowledge into actionable tasks. Users upload book page images, receive AI-generated tasks, and submit proof of completion—bridging the gap between reading and doing.",
+    tags: ["AI SaaS", "Next.js", "Gemini AI", "Action-Focused"],
+    links: { demo: "https://enactai.me", github: "https://github.com/jatin02k/Enact-AI" },
+    isFuture: false,
+    metric: "Self Improvement",
+    image: "/enactai.png"
   },
   {
     title: "Complaint Management System",
@@ -37,7 +37,7 @@ const projects = [
       github: "https://github.com/jatin02k/Quick-Cart" 
     },
     isFuture: false,
-    metric: "Supabase Backend",
+    metric: "E-commerce",
     image: "/quickCart.png"
   }
 ];
@@ -102,6 +102,7 @@ export function ProjectsSection() {
                       </span>
                     ))}
                   </div>
+                  
                 </div>
                 
                 <div className="pt-4 border-t border-white/10 flex justify-between items-center">
@@ -109,10 +110,23 @@ export function ProjectsSection() {
                       {project.metric}
                    </div>
                    
-                   {!project.isFuture && (
-                      <div className="relative z-30"> {/* z-30 to be clickable above the card link */}
-                         <Button variant="ghost" size="icon" className="h-8 w-8 text-white hover:bg-white/20 rounded-full" asChild>
-                            <Link href={project.links.github} target="_blank">
+                   
+                </div>
+              </div>
+              {!project.isFuture && (
+                      <div className="relative z-30 mb-4 ml-80"> {/* z-30 to be clickable above the card link */}
+                         <Button 
+                           variant="ghost" 
+                           size="icon" 
+                           className="h-8 w-8 text-white hover:bg-white/20 rounded-full" 
+                           asChild
+                         >
+                            <Link 
+                              href={project.links.github} 
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              onClick={(e) => e.stopPropagation()}
+                            >
                                  <Github className="w-5 h-5" />
                             </Link>
                          </Button>
@@ -121,8 +135,6 @@ export function ProjectsSection() {
                    {project.isFuture && (
                       <span className="text-xs text-white/50 italic">In Development</span>
                    )}
-                </div>
-              </div>
             </motion.div>
           ))}
         </div>
