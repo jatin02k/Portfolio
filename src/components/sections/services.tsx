@@ -74,8 +74,8 @@ export function ServicesSection() {
         >
             <h3 className="text-2xl sm:text-3xl font-bold mb-4">Ready to build?</h3>
             <p className="text-muted-foreground mb-8 max-w-xl mx-auto">
-                My typical engagement is $4k - $8k for a complete MVP delivered in 30 days. 
-                I currently have <span className="text-primary font-semibold">1 slot open</span> for February.
+                My typical engagement is $600 - $2000 for a complete MVP delivered in 30 days. 
+                I currently have <span className="text-primary font-semibold">3 slots open</span>
             </p>
             <Button size="lg" className="rounded-full text-lg px-8 h-12" asChild>
                 <Link href="/#contact">
